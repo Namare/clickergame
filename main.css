@@ -67,8 +67,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #f19f08b3;
-
-    filter: blur(1px);
+    opacity: .8;
 }
 .level-g{
     height: 30px;
