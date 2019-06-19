@@ -10,42 +10,17 @@
     <description>
         Clicker game
     </description>
-    <access origin="http://phonegap.com" subdomains="true" />
-    <access origin="*" launch-external="yes"/>
-    <allow-intent href="whatsapp:*" />
-    <allow-intent href="viber:*" />
-    <allow-intent href="tg:*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="skype:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="http:*" />
-    <allow-intent href="https:*" />
 
     <author href="http://namgam.com" email="support@namgam.com">
         Pavlushyn Victor
     </author>
-
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
 
-    <platform name="android" >
-    <allow-intent href="geo:*"/>
-    <allow-intent href="http://*"/>
-    <allow-intent href="https://*"/>
-    <allow-navigation href="https://*"/>
-    <access origin="*"/>
-    </platform>
-
-
     <preference name='phonegap-version' value='cli-7.1.0' />
     <preference name='pgb-builder-version' value='1' />
-    <preference name="xwalkVersion" value="23+" />
-    <preference name="xwalkLiteVersion" value="xwalk_core_library_canary:17+" />
-    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
-    <preference name="xwalkMode" value="embedded" />
-    <preference name="xwalkMultipleApk" value="false" />
+
 
     <plugin name="cordova-plugin-crosswalk-webview" spec="^2.4.0">
         <variable name="XWALK_VERSION" value="23+" />
