@@ -49,7 +49,6 @@
         <preference name="android-signed" value="true"/>
         <preference name="Fullscreen" value="false"/>
         <preference name="AndroidLaunchMode" value="singleTop"/>
-        <preference name="xwalkMode" value="lite" />
     </platform>
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
