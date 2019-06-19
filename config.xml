@@ -34,7 +34,7 @@
         <variable name="XWALK_MULTIPLEAPK" value="false" />
     </plugin>
     <platform name="android" >
-        <preference name="android-minSdkVersion" value="17"/>
+        <preference name="android-minSdkVersion" value="16"/>
         <preference name="android-targetSdkVersion" value="25"/>
         <preference name="android-installLocation" value="auto"/>
         <preference name="android-signed" value="true"/>
