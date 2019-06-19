@@ -66,9 +66,8 @@ body{
 .level-prog{
     width: 100%;
     height: 100%;
-    background-color: rgba(244, 162, 8, 0.7);
-    opacity: .9;
-    z-index: 9999;
+    background-color: rgba(243, 161, 8, 0.7);
+    filter: blur(1px);
 }
 .level-g{
     height: 30px;
