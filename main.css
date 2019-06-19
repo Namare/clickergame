@@ -68,6 +68,7 @@ body{
     height: 100%;
     background-color: #f19f08b3;
     opacity: .8;
+    z-index: 9999;
 }
 .level-g{
     height: 30px;
